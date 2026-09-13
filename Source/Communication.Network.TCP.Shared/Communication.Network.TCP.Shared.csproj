@@ -4,7 +4,7 @@
     <PackageId>Communication.Network.TCP.Shared</PackageId>
     <Version>2.5.1</Version>
     <Authors>BIGSUNGG</Authors>
-    <Description>연결형 통신 전송 계층 TCP 공유 계층 — TcpSession·StreamByteChannel·TcpTransportOptions (.NET Standard 2.1, Unity 호환).</Description>
+    <Description>Shared TCP transport layer for DS_Communication: TcpSession, StreamByteChannel and TcpTransportOptions with optional TLS (SslStream, handshake timeout enforced). Transports expose only a byte channel — the application creates and owns sessions, and disconnection surfaces solely as Session.Disconnected(DisconnectReason). Targets .NET Standard 2.1 — runs on modern .NET and Unity.</Description>
     <RepositoryUrl>https://github.com/BIGSUNGG/DS_Communication.git</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>

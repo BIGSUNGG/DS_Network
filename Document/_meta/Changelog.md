@@ -10,6 +10,10 @@ updated: 2026-09-09
 
 Document vault 변경 기록 (코드 릴리스 노트 아님).
 
+## 2026-09-09 (NuGet 패키지 Description 영어화)
+
+- **배포 패키지 7종 csproj `<Description>` 한국어 → 영어 교체** — Shared·TCP 3종·RUDP 3종. 주요 타입, 설계 철학(채널만 개방·세션 앱 소유), 옵션 TLS/DTLS·CRC32C, 폴링 스레드 모델, netstandard2.1/Unity 호환 명시. NuGet 검색 노출 글로벌화 목적. 코드 무변경 — 메타데이터만 변경. 다음 배포 태그부터 반영
+
 ## 2026-09-09 (루트 문서 영어화 — README·TCP·RUDP)
 
 - **루트 문서 3종 영어 (재)작성** — `README.md`(소개·Quick Start·전 기능 사용법·보안 요약), `TCP.md`·`RUDP.md`(전송별 사용법 신설, 루트). 서브에이전트 writer/reviewer 루프로 Source 대조 검증. 코드 무변경 — 문서만 변경
